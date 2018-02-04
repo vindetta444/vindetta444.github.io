@@ -79,6 +79,26 @@ header small{
 .portfolio-col1{
 	padding-left: 50px;
 }
+.portfolio-col1 a{
+	padding: 5px 5px;
+	border: 1px solid purple;
+	border-radius: 50px;
+}
+.portfolio-col1 a:hover{
+	color: purple;
+	transition: 0.8s;
+	box-shadow: -6px 3px 14px -1px ;
+}
+.portfolio-col2 a{
+	padding: 5px 5px;
+	border: 1px solid purple;
+	border-radius: 50px;
+}
+.portfolio-col2 a:hover{
+	color: purple;
+	transition: 0.8s;
+	box-shadow: 6px 3px 14px -1px ;
+}
 .portfolio-col2{
 	padding-right: 50px;
 }
