@@ -153,9 +153,14 @@ footer{
 	color: #fff;
 	font-size: 18px; 
 	border-radius:50px;
-	padding: 12px 40px
+	padding: 12px 40px;
+	transition: 0.3s;
 }
+.footer-button:hover{
 
+	background-color: #fff;
+	color: #23074d;
+}
 @media (max-width: 1200px){
 	.header-pretitle{
 		margin-top: 60px;

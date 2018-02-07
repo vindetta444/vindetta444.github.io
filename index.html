@@ -3,34 +3,16 @@
 <html lang="ru">
 
 <head>
-
-	<!-- Важная техническая информация для браузера -->
-
 	<meta charset="UTF-8">
-
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- Информация об Авторе и описание проекта -->
-
 	<meta name="description" content="">
-
 	<meta name="author" content="">
-
-	<!-- Иконка, которая будет на вкладке в браузере -->
-
 	<link rel="icon" href="/favicon.ico">
-
-	<!-- Заголовок на вкладке в браузере -->
-
 	<title>Mine Site</title>
-
-	<!-- Подключаем наш файл со стилями, который находится в папке css/ -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
-
 	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
-
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -38,13 +20,13 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-7">
-				<img class="header-img" src="img/imac4.png" alt="imac">
+				<img class="header-img wow fadeInLeftBig" src="img/imac4.png" alt="imac">
 			</div>
 			<div class="col-lg-5">
-				<p class="header-pretitle">Веб-разработчик</p>
-				<h1 class="header-title">Александр Ботнарь</h1>
-				<p class="header-subtitle">Верстка на HTML/CSS <br>Разработка сайтов под ключ</p>
-				<div class="header-button-block">
+				<p class="header-pretitle wow fadeInRightBig" data-wow-delay="0.1s">Web-Developer</p>
+				<h1 class="header-title wow fadeInRightBig" data-wow-delay="0.2s">Alexander</h1>
+				<p class="header-subtitle wow fadeInRightBig" data-wow-delay="0.3s">Верстка на HTML/CSS <br>Разработка сайтов под ключ</p>
+				<div class="header-button-block wow fadeInRightBig" data-wow-delay="0.4s">
 					<button class="header-button">Связаться</button>
 					<small>*Это бесплатно</small>
 				</div>
@@ -55,7 +37,7 @@
 
 <section class="portfolio">
 	<div class="container">
-		<div class="portfolio-block">
+		<div class="portfolio-block wow zoomIn" data-wow-delay="0.4s">
 			<h2 class="portfolio-title">My Portfolio</h2>
 			<p class="portfolio-subtitle">My works</p>
 			<div class="row">
@@ -86,16 +68,16 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
-				<h4 class="footer-author">Александр Ботнарь</h4>
+				<h4 class="footer-author">Alexander</h4>
 				<p class="footer-text">Разработка сайтов под ключ</p>
 			</div>
 			<div class="col-md-4">
 				<div class="social-block">
 					<p>Подпишитесь:</p>
-					<a href="#"><img src="img/social/lg-fb.png" alt="Facebook"></a>
-					<a href="#"><img src="img/social/lg-tl.png" alt="Telegram"></a>
-					<a href="#"><img src="img/social/lg-vk.png" alt="VK"></a>
-					<a href="#"><img src="img/social/lg-yt.png" alt="Youtube"></a>
+					<a href="#" class="wow zoomInLeft" data-wow-delay="0.2s"><img src="img/social/lg-fb.png" alt="Facebook"></a>
+					<a href="#" class="wow fadeInLeft" data-wow-delay="0.2s"><img src="img/social/lg-tl.png" alt="Telegram"></a>
+					<a href="#" class="wow fadeInRight" data-wow-delay="0.2s"><img src="img/social/lg-vk.png" alt="VK"></a>
+					<a href="#" class="wow zoomInRight" data-wow-delay="0.2s"><img src="img/social/lg-yt.png" alt="Youtube"></a>
 				</div>
 			</div>
 			<div class="col-md-4">
@@ -108,12 +90,13 @@
 	</div>
 </footer>
 
-
-
+<script src="js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
 </body>
 
 </html>
-
 
 
 
